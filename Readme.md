@@ -1,10 +1,13 @@
 ﻿# Graus
-** disclaimer: It contains german words **
+
+**disclaimer: It contains german words**
+
 Graus is a small project to work with the TIA Portal Openness API. You manly want to use it if you are Mad, or if you want to Copy some functionailty.
 It reads an File called minimum.xlsx (an Excel File) an creates an TIA project.
 You need https://www.nuget.org/packages/DocumentFormat.OpenXml/
 you need the excel file and the csvs in the same dir then the .exe
-** It wont work out of the Box for you **
+
+**It wont work out of the Box for you**
 
 ## Data structure 
 
@@ -64,6 +67,7 @@ you want to call some FB, export that FB, use TiaXmlReader to read it and call T
 
 ## Excel 
 Sheet 1 is self explaining, Sheet two is more complex: 
+
 At the top left it says "PLC;Rechner1". PLC is only a name, via which can contain model information. "Rechner1", on the other hand, is the Name that is assigned to the PLC in the project. All other cells in this line are subordinate areas of the PLC.
 In the line below, the area "Rohstoffbereitstellung" is defined more precisely. The cell to the right are Equipmentmodules. The entry "ET mit ext. Siebung;IO_1;ET_01" is the system displays. The function module is "ET mit ext. Siebung".
 It is connected to the switchcabinet with the name "IO_1". The block itself is named "ET_1". However, there are also entries like "Abscheider;IO_2". This module has a name that was not specified. The Area definitions in the left column consist of two parts. Before the Semicolon is the name of the area already mentioned in line 1. The area following The semicolon is the default name. 
