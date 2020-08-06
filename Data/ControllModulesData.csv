@@ -1,0 +1,2 @@
+CM_Motor;Motor;motor on;iFbkRun;motor on right;iMaintSwitch;feedback motor on;qStart
+CM_Valve;Valve;motor on;iFbkOpened;motor on right;iFbkClosed;feedback motor on;qCtrl

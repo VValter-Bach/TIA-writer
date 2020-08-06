@@ -1,0 +1,90 @@
+motor on;EUq;Q;Bool
+feedback motor on;EUi;I;Bool
+motor on right;EUq0;Q;Bool
+motor on left;EUq1;Q;Bool
+feedback motor on right;EUi0;I;Bool
+feedback motor on left;EUi1;I;Bool
+motor on speed 1;EUq0;Q;Bool
+motor on speed 2;EUq1;Q;Bool
+feedback motor on speed 1;EUi0;I;Bool
+feedback motor on speed 2;EUi1;I;Bool
+motor on up;EUq0;Q;Bool
+motor on down;EUq1;Q;Bool
+feedback motor on up;EUi0;I;Bool
+feedback motor on down;EUi1;I;Bool
+motor safety switch;EUi2;I;Bool
+brake unit;ESq;Q;Bool
+feedback brake unit;ESi;I;Bool
+motor disconnector;TODO;HZ;Bool
+motor PTC thermistor;TODO;TZ;Bool
+valve general;TODO;UV;Bool
+open;UVp;Q;Bool
+close;UVn;Q;Bool
+on;UVp;Q;Bool
+off;UVn;Q;Bool
+convey;UVp;Q;Bool
+bypass;UVn;Q;Bool
+dock;UVp;Q;Bool
+undock;UVn;Q;Bool
+up;UVp;Q;Bool
+down;UVn;Q;Bool
+straight;UVp;Q;Bool
+divert;UVn;Q;Bool
+position 1;UVp;Q;Bool
+position 2;UVn;Q;Bool
+left;UVp;Q;Bool
+right;UVn;Q;Bool
+forward;UVp;Q;Bool
+backward;UVn;Q;Bool
+feedback open;Gp;I;Bool
+feedback closed;Gn;I;Bool
+feedback convey;Gp;I;Bool
+feedback bypass;Gn;I;Bool
+feedback straight;Gp;I;Bool
+feedback divert;Gn;I;Bool
+feedback position 1;Gp;I;Bool
+feedback position 2;Gn;I;Bool
+feedback up;Gp;I;Bool
+feedback down;Gn;I;Bool
+feedback docked;Gp;I;Bool
+feedback undocked;Gn;I;Bool
+feedback left;Gp;I;Bool
+feedback right;Gn;I;Bool
+feedback forward;Gp;I;Bool
+feedback backward;Gn;I;Bool
+feedback on;Gp;I;Bool
+feedback off;Gn;I;Bool
+level indicator;L;TODO;TODO
+high level;Lp;TODO;TODO
+high high level;Lpp;TODO;TODO
+safety high level;LZp;TODO;TODO
+low level;Ln;TODO;TODO
+low low level;Lnn;TODO;TODO
+safety low level;LZn;TODO;TODO
+limit switch general;G;TODO;TODO
+limit switch G+;Gp;TODO;TODO
+limit switch G-;Gn;TODO;TODO
+safety switch;GZ;TODO;TODO
+operation element;H;TODO;TODO
+pressure switch;PI;TODO;TODO
+4-20 mA;;TODO;TODO
+0-10 V;;TODO;TODO
+0-20 mA;;TODO;TODO
+PT100;;TODO;TODO
+Resistor;;TODO;TODO
+measurement amplifier;WI;TODO;TODO
+flow meter;FI;TODO;TODO
+position sensor;GI;TODO;TODO
+independent control system;US;TODO;TODO
+electrical control signal;ES;TODO;TODO
+pressure transmitter;PI;TODO;TODO
+PT100;TI;TODO;TODO
+temperature sensor;TI;TODO;TODO
+position sensor;GI;TODO;TODO
+moisture sensor;MI;TODO;TODO
+level measurement;LI;TODO;TODO
+flow meter;FI;TODO;TODO
+measurement amplifier;WI;TODO;TODO
+analog valve;UV;TODO;TODO
+feedback analog valve;G;TODO;TODO
+set value;ES;TODO;TODO
