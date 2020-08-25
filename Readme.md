@@ -7,7 +7,7 @@ It reads an File called minimum.xlsx (an Excel File) an creates an TIA project.
 You need https://www.nuget.org/packages/DocumentFormat.OpenXml/
 you need the excel file and the csvs in the same dir then the .exe
 
-Fell free to write me a mail to Valentin.Assfalg@azo.com
+Feel free to write me a mail to Valentin.Assfalg@azo.com
 
 **It wont work out of the Box for you**
 
